@@ -1,12 +1,11 @@
 import React from "react"
-import Tag from "@vtex/styleguide/lib/Tag"
+
+import Email from "./components/Email"
 
 function App() {
   return (
     <div className="App">
-      Hello world
-      <br/>
-      <Tag>Hi!</Tag>
+      <Email />
     </div>
   )
 }
